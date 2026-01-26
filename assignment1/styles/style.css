@@ -4,3 +4,9 @@ body {
 body {
   font-family: Arial, sans-serif;
 }
+.sender {
+  text-align: right;
+}
+  address {
+  font-style: normal;
+}
