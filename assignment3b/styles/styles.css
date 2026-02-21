@@ -1,4 +1,14 @@
+@import "https://fonts.googleapis.com/css2?family=Bevan&family=IBM+Plex+Serif:wght@400;600&display=swap";
+
 /* General setup */
+
+html {
+  font-family: "IBM Plex Serif", serif;
+}
+h1,
+h2 {
+  font-family: "Bevan", serif;
+}
 
 * {
   box-sizing: border-box;
