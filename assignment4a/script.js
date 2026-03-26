@@ -44,6 +44,6 @@ if (document.getElementById("uk").checked) {
   newStory = newStory.replace("94 Fahrenheit", temperature);
 }
   // TODO: replace "" with the correct expression
-  story.textContent = "newstory";
+  story.textContent = newStory;
   story.style.visibility = "visible";
 }
