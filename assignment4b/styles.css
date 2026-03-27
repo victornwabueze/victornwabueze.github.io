@@ -1,0 +1,33 @@
+/* Basic page styling */
+body {
+  width: 640px;
+  margin: 0 auto;
+}
+
+/* Full image container */
+.full-img {
+  position: relative;
+}
+
+/* Main displayed image */
+.displayed-img {
+  width: 100%;
+  height: auto;
+}
+
+/* Thumbnails container */
+.thumb-bar img {
+  display: block;
+  width: 20%;
+  float: left;
+  cursor: pointer;
+}
+
+/* Overlay for darken effect */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
