@@ -1,4 +1,6 @@
-
+// Assignment 4c - Bouncing balls
+// Author: Victor Nwabueze
+// Description: Using canvas and JavaScript objects to create animated bouncing balls
 // setup canvas
 
 const canvas = document.querySelector("canvas");
