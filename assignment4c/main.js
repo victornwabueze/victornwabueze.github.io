@@ -38,3 +38,40 @@ ctx.arc(this.x, this.y, this.size, 0, 2 * Math.PI);
 ctx.fill();
 }
 }
+
+// Method to update ball position
+update() {
+  // Bounce off walls (left/right)
+  if (this.x + this.size >= width || this.x - this.size <= 0) {
+    this.velX = -this.velX;
+  }
+
+  // Bounce off walls (top/bottom)
+  if (this.y + this.size >= height || this.y - this.size <= 0) {
+    this.velY = -this.velY;
+  }
+
+  // Move ball
+  this.x += this.velX;
+  this.y += this.velY;
+}
+
+// Method to update ball position
+update() {
+  // Bounce off walls (left/right)
+  if (this.x + this.size >= width || this.x - this.size <= 0) {
+    this.velX = -this.velX;
+  }
+
+  // Bounce off walls (top/bottom)
+  if (this.y + this.size >= height || this.y - this.size <= 0) {
+    this.velY = -this.velY;
+  }
+
+  // Move ball
+  this.x += this.velX;
+  this.y += this.velY;
+}
+
+// Store all balls
+const balls = [];
