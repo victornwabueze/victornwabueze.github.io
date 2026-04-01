@@ -1,6 +1,6 @@
 // Assignment 4d - Bouncing balls
 // Author: Victor Nwabueze
-// Description: Extending bouncing balls animation with Shape class, Evil Circle, and interaction features
+// Description: Extending bouncing balls animation with Shape class, Evil Circle, and interaction features.
 
 // setup canvas
 const canvas = document.querySelector("canvas");
