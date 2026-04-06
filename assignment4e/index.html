@@ -75,39 +75,60 @@ Description: Creating a structured feedback form with various input types
 </fieldset>
 </div>
 
-    About your hosts
+<div class="form-section">
+<h2>About your hosts</h2>
+<div class="separator">
+<label for="favorite">Who's your favorite bear?</label>
+<select id="favorite" name="favorite">
+ <option value="papa">Papa bear</option>
+ <option value="mama">Mama bear</option>
+ <option value="junior">Junior</option>
+ <option value="dozer">Dozer</option>
+ </select>
+  </div>
 
-    Who's your favorite bear?
-    Papa bear
-    Mama bear
-    Junior
-    Dozer
+  <div class="separator">
+    <label for="greeting">Which greeting did you prefer?</label>
+    <select id="greeting" name="greeting">
+      <option value="wave">Wave</option>
+      <option value="friendly">Friendly greeting</option>
+      <option value="growl">Growl</option>
+      <option value="claw">Claw marks in the door</option>
+    </select>
+  </div>
+</div>
 
-    Which greeting did you prefer?
-    Wave
-    Friendly greeting
-    Growl
-    Claw marks in the door
+<div class="form-section">
+  <h2>Any other feedback?</h2>
 
-    --
+  <label for="comments">Give us your comments</label>
+  <br>
+  <textarea id="comments" name="comments"></textarea>
+</div>
+    
 
-    Any other feedback?
+<div class="form-section">
+  <h2>Your details</h2>
 
-    Give us your comments
+  <div class="separator">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name">
+  </div>
 
-    --
+  <div class="separator">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email">
+  </div>
 
-    Your details
+  <div class="separator">
+    <label for="phone">Phone</label>
+    <input type="tel" id="phone" name="phone">
+  </div>
 
-    Name
-    Email
-    Phone
-
-    --
-
-    Submit
-
-    --
+</div>
+  <div class="form-section">
+  <button type="submit">Submit</button>
+</div>
 </form>
   </body>
 </html>
